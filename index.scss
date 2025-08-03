@@ -2,18 +2,35 @@ body {
   margin: 0;
   padding: 0;
   background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1 {
-  display: flex;
-  justify-content: center;
   font-family: "Montserrat";
   color: aliceblue;
   font-size: 2.5rem;
+  text-align: center;
 }
 button {
-  display: flex;
-  justify-self: center;
-  align-self: center;
+  background-color: #333;
+  color: white;
+  border: 2px solid #555;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  
+  h2 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+  
+  &:hover {
+    background-color: #555;
+    border-color: #777;
+  }
 }
 div {
   padding: 4rem;
