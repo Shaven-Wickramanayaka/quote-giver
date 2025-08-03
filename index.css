@@ -1,15 +1,16 @@
-body {
-  margin: 0;
-  padding: 0;
+.quote-display {
   background-color: #121212;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-h1 {
+.title-text {
+  padding: 2rem;
   font-family: "Montserrat";
-  color: aliceblue;
+  color: white;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -24,6 +25,7 @@ button {
   margin: 1rem 0;
 }
 button h2 {
+  text-align: center;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: white;
